@@ -1,0 +1,33 @@
+---
+title: "Querying Linked Data from Solid with Comunica"
+---
+<header markdown="1">
+# <%= @item[:title] %>
+
+{:#authors}
+- <%= person 'Ruben Taelman', 'http://www.rubensworks.net/', 'http://www.rubensworks.net/#me' %>
+- <%= person 'Joachim Van Herwegen', '#', 'https://data.verborgh.org/people/joachim_van_herwegen' %>
+- <%= person 'Miel Vander Sande', '#', 'https://data.verborgh.org/people/miel_vander_sande' %>
+- <%= person 'Ruben Verborgh', 'https://ruben.verborgh.org/', 'https://ruben.verborgh.org/profile/#me' %>
+
+{:#affiliations}
+- {:#idlab} IDLab,
+            Department of Electronics and Information Systems,
+            Ghent University – imec
+
+<section class="context" markdown="block">
+## In reply to
+- [The Web Conference 2019 call for tutorials](https://www2019.thewebconf.org/call-for-tutorials){:rel="as:inReplyTo"}
+</section>
+
+<br />
+
+<%= section 'abstract' %>
+</header>
+
+<main>
+  <!-- Add sections by specifying their file name, excluding the '.md' suffix. -->
+  <%= section 'introduction'  %>
+</main>
+
+<footer></footer>
