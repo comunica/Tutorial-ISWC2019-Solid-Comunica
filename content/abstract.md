@@ -1,15 +1,27 @@
 ## Abstract
 <!-- Context      -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Solid is a decentralized storage platform,
+built on Linked Data principles.
+It enables _true data ownership_,
+where anyone can store data in one or more Solid _data pods_.
+In order to build _decentralized_ applications over Solid data pods,
+specialized querying techniques are required.
+Comunica is a flexible _meta query engine_
+that offers such querying capabilities.
 <!-- Need         -->
-Vestibulum finibus dignissim augue, id pellentesque est facilisis non.
+In order to enable developers and researchers
+to start building such decentralized applications,
 <!-- Task         -->
-Donec fringilla dolor non neque iaculis blandit.
+we offer a tutorial on Solid and Comunica,
 <!-- Object       -->
-Praesent aliquet eleifend iaculis.
+This tutorial consists of an overview of Solid,
+and on how Comunica can be used to query Solid data pods.
 <!-- Findings     -->
-Quisque pellentesque at odio ac bibendum.
 <!-- Conclusion   -->
-Pellentesque imperdiet felis urna, quis facilisis lacus gravida non.
+As a result, participants from different backgrounds
+will have experience with hosting data through their own personal Solid data pod.
+Furthermore, they will be able to query over Solid data pods,
+using different querying techniques with Comunica.
+Ultimately, this will enable the development and research of
+decentralized applications with the Solid platform.
 <!-- Perspectives -->
-Donec quis lectus eget sem tempor tristique pellentesque in dolor.
