@@ -1,40 +1,36 @@
 ## Topic and Relevance
 {:#topic}
 
-Querying is a key aspect of the [Semantic Web Stack](cite:cites semanticweb),
-and a large variety of _query algorithms_ for different kinds of Linked Data _interfaces_ already exist.
-There are still plenty of open problems
-that elicit research on new querying techniques and combinations of existing ones.
+Decentralization is a hot topic these days.
+[Solid](https://solid.mit.edu/){:.mandatory} is a Web-based platform founded by Tim Berners-Lee
+that enables people store data in their own personal _data pod_.
+This gives users _true data ownership_,
+as they can choose _where_ their data resides,
+and _who_ can access it.
+The _decentralized applications_
+that can be built on top of Solid data pods
+are not tied to specific user data.
+Instead, users need to give applications explicit access to their data.
+Only then can applications _query_ over one or more data pods.
 
-[Comunica](cite:cites comunica) is a _meta query engine_ that was introduced
-as a tool to facilitate the development, testing, and evaluation of such querying capabilities.
-As such, it is a tool with which query engines can be created,
-based on a set of modules,
-and a flexible configuration system to wire them together.
-One example of such a query engine instantiation is [Comunica SPARQL](https://github.com/comunica/comunica/tree/master/packages/actor-init-sparql){:.mandatory},
-which implements the [SPARQL 1.1](cite:cites spec:sparqllang) specification using an efficient set of modules.
-This engine is able to federate queries over heterogeneous interfaces,
-for example, one can execute a SPARQL query over the combination of a SPARQL endpoint
-and a collection Linked Data documents on the Web.
-This functionality is demonstrated via our [Web application](http://query.linkeddatafragments.org/){:.mandatory}.
-Thanks to the modularity of Comunica, support for new kinds of datasources
-can be added by writing a custom module, and plugging it in.
+[Comunica](cite:cites comunica) is a JavaScript-baed _meta query engine_ that was introduced
+as a flexible way of querying Linked Data on the Web.
+As such, it is an ideal platform for querying over Solid data pods,
+and for building truly decentralized applications.
+The main functionality is demonstrated via our [Web application](http://query.linkeddatafragments.org/){:.mandatory}.
+The interaction with Solid data pods is demonstrated within the
+[LDflex playground](https://solid.github.io/ldflex-playground/){:.mandatory},
+where Comunica is used in the back-end behind a user-friendly
+[LDflex](https://github.com/solid/query-ldflex){:.mandatory} path expression.
 
-The modularity and flexibility of Comunica is useful for research purposes,
-as it allows you to easily plug in different algorithms of certain query operators,
-and compare their performance.
-Not only does this lower the barrier towards such evaluations,
-it also makes these evaluations _fair_,
-because algorithms are implemented in the same engine,
-instead of comparing completely different engines with a potentially different stack.
-
-The Comunica platform is fully open-source,
-which makes it easy to learn from the code when new modules need to be implemented.
-Furthermore, it is written in JavaScript,
-which makes it possible to run engines anywhere,
-both locally on your machine, or on the Web via a browser.
-
-This is the first tutorial that is dedicated to Comunica.
-Before that, Comunica was used as a tool to demonstrate various querying capabilities in a tutorial
+This is the first tutorial that combines Solid and Comunica.
+In the past, there were tutorials on Solid at the
+[Decentralized Web Summit 2018](https://decentralizedwebsummit2018.sched.com/event/Fg5q/workshop-building-solid-apps-a-hands-on-tutorial){:.mandatory},
+and at the [DeSemWeb workshop at ISWC 2018](http://iswc2018.desemweb.org/program/){:.mandatory}.
+The Decentralized Web Summit tutorial ([https://solid.github.io/dweb-summit-2018/](https://solid.github.io/dweb-summit-2018/)) had 50 participants,
+while the DeSemWeb workshop ([https://rubenverborgh.github.io/Solid-DeSemWeb-2018/](https://rubenverborgh.github.io/Solid-DeSemWeb-2018/))
+had more than 60 participants.
+There was one previous tutorial where Comunica was used
+as a tool to demonstrate various querying capabilities in a tutorial
 on [_Knowledge Representation as Linked Data_](cite:cites cikm)
 ([http://rml.io/cikm2018tutorial/](http://rml.io/cikm2018tutorial/)) at the CIKM conference 2018.
