@@ -22,7 +22,7 @@ After that, we will focus on [GraphQL-LD](cite:cites graphqlld),
 which is a technique for querying Linked Data based on
 the highly popular [GraphQL](cite:cites graphql) query language.
 It is based on declarative queries, which are more expressive than LDflex.
-Finally, we will focus on [SPARQL queries](cite:cites spec:sparqllang),
+Finally, we will briefly focus on [SPARQL queries](cite:cites spec:sparqllang),
 which is an even more expressive way of querying Linked Data,
 but is more difficult to use.
 
@@ -47,9 +47,9 @@ Perceived developer complexity versus data retrieval expressivity of Linked Data
 | **Morning: Getting started** (_2:40_)         | Introduction | 0:20   |
 |                                               | Getting started with Solid  | 1:10   |
 |                                               | Getting started with Comunica  | 1:10   |
-| **Afternoon: Building applications** (_2:40_) | LDflex | 1:00   |
-|                                               | GraphQL-LD | 0:50   |
-|                                               | SPARQL | 0:50   |
+| **Afternoon: Building applications** (_2:40_) | LDflex | 1:10   |
+|                                               | GraphQL-LD | 1:10   |
+|                                               | SPARQL | 0:20   |
 
 <figcaption markdown="block">
 Planning of the tutorial
