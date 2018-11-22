@@ -36,7 +36,7 @@ to still begin with the next task by checking out a different branch.
 <figure id="querying-tool-complexity">
 <img src="img/querying-tool-complexity.svg" alt="[Complexity versus expressivity]" />
 <figcaption markdown="block">
-Percieved developer complexity versus data retrieval expressivity of Linked Data Query APIs.
+Perceived developer complexity versus data retrieval expressivity of Linked Data Query APIs.
 </figcaption>
 </figure>
 
