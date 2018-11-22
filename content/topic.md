@@ -13,7 +13,7 @@ are not tied to specific user data.
 Instead, users need to give applications explicit access to their data.
 Only then can applications _query_ over one or more data pods.
 
-[Comunica](cite:cites comunica) is a JavaScript-baed _meta query engine_ that was introduced
+[Comunica](cite:cites comunica) is a JavaScript-based _meta query engine_ that was introduced
 as a flexible way of querying Linked Data on the Web.
 As such, it is an ideal platform for querying over Solid data pods,
 and for building truly decentralized applications.
