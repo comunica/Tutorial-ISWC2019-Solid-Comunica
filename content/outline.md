@@ -30,7 +30,7 @@ queries via a [Web-based query engine](http://query.linkeddatafragments.org/){:.
 
 In the afternoon, we will focus on building applications on top of Solid
 using Comunica's querying capabilities.
-We will focus on three querying APIs to interact with Comunica.
+We will focus on three querying APIs to interact with Comunica,
 ranging from basic to advanced, as shown in [](#querying-tool-complexity).
 First, we will demonstrate the usage of [LDflex](https://github.com/solid/query-ldflex){:.mandatory},
 which is a simple path-based query expression language in JavaScript.
