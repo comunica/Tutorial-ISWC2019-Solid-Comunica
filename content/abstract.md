@@ -1,12 +1,13 @@
 ## Abstract
 <!-- Context      -->
-Solid is a decentralized storage platform,
-built on Linked Data principles.
-It enables _true data ownership_,
-where anyone can store data in one or more Solid _data pods_.
-In order to build _decentralized_ applications over Solid data pods,
+Solid is a decentralized application and storage ecosystem, 
+built on the Linked Data principles.
+It enables true data ownership,
+where anyone can store data in a place of their choice,
+regardless of the applications they use.
+In order to build decentralized applications over Solid data pods,
 specialized querying techniques are required.
-Comunica is a flexible _meta query engine_
+Comunica is a flexible meta query engine
 that offers such querying capabilities.
 <!-- Need         -->
 In order to enable developers and researchers

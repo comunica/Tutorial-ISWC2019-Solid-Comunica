@@ -11,6 +11,6 @@ and actively coach students within the practical sessions of the
 [Web Development course](http://rubenverborgh.github.io/WebFundamentals/){:.mandatory} by Ruben Verborgh at Ghent University.
 Ruben Verborgh is a professor from Ghent University – imec,
 a research affiliate at the Decentralized Information Group at MIT,
-and is part of the Solid team.
-He explores the connection between Semantic Web technologies and the Web’s architectural properties,
-with the ultimate goal of building more intelligent clients.
+and a Solid technology advocate at Inrupt inc.
+He has presented Solid on many occasions
+and is responsible for its developer experience.
