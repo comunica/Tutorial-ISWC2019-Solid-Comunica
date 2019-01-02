@@ -1,5 +1,5 @@
-## Topic and Relevance
-{:#topic}
+## Motivation
+{:#motivation}
 
 Decentralization is a widely discussed topic these days.
 [Solid](https://solid.mit.edu/){:.mandatory} is a Web-based platform founded by Tim Berners-Lee
@@ -34,3 +34,4 @@ There was one previous tutorial where Comunica was used
 as a tool to demonstrate various querying capabilities in a tutorial
 on [_Knowledge Representation as Linked Data_](cite:cites cikm)
 ([http://rml.io/cikm2018tutorial/](http://rml.io/cikm2018tutorial/)) at the CIKM conference 2018.
+Furthermore, we will present a tutorial on Comunica at [ESWC 2019](https://comunica.github.io/Tutorial-ESWC2019-Comunica/){:.mandatory}.
