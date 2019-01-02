@@ -22,3 +22,7 @@ The interaction with Solid data pods is demonstrated within the
 [LDflex playground](https://solid.github.io/ldflex-playground/){:.mandatory},
 where Comunica is used in the back-end behind a user-friendly
 [LDflex](https://github.com/solid/query-ldflex){:.mandatory} path expression.
+
+The goal of this tutorial is to provide participants
+with knowledge on how to build decentralized applications,
+by combining Solid data pods and querying with Comunica.
