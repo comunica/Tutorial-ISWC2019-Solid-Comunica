@@ -1,9 +1,10 @@
-## Outline
-{:#outline}
+## Description
+{:#description}
 
 We plan a full day for this tutorial as shown in [](#planning).
 The morning session will focus on the basics of Solid and Comunica,
 and the afternoon will consist of hands-on sessions for building applications.
+We expect participants to have basic knowledge on RDF, Linked Data and SPARQL.
 
 <figure id="planning" markdown="1" class="table">
 
