@@ -44,13 +44,6 @@ Finally, we will briefly focus on [SPARQL queries](cite:cites spec:sparqllang),
 which is an even more expressive way of querying Linked Data,
 but is more difficult to use.
 
-The tutorial will be guided by slides,
-which will be shared online after the session.
-For the hands-on coding sessions, we will provide
-a git repository with separate branches for all sequentially completed tasks.
-This will allow participants that are unable to complete a certain task,
-to still begin with the next task by checking out a different branch.
-
 <figure id="querying-tool-complexity">
 <img src="img/querying-tool-complexity.svg" alt="[Complexity versus expressivity]" />
 <figcaption markdown="block">
