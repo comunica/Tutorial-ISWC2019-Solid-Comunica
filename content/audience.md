@@ -2,7 +2,7 @@
 {:#audience}
 
 This tutorial focuses on Web developers and researchers
-that are want to use, develop, or research decentralized Web applications.
+that want to use, develop, or research decentralized Web applications.
 We assume elementary knowledge on Web technologies such as HTML and JavaScript.
 Knowledge about RDF and SPARQL is beneficial, but not required.
 We expect participants to bring a laptop that has a recent Web browser,
