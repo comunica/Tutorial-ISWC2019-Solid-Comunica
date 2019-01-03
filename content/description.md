@@ -46,7 +46,7 @@ which is an even more expressive way of querying Linked Data,
 but is more difficult to use.
 
 <figure id="querying-tool-complexity">
-<img src="img/querying-tool-complexity.svg" alt="[Complexity versus expressivity]" />
+<center><img src="img/querying-tool-complexity.svg" alt="[Complexity versus expressivity]" style="width: 50% !important" /></center>
 <figcaption markdown="block">
 Perceived developer complexity versus data retrieval expressivity of Linked Data Query APIs.
 </figcaption>
