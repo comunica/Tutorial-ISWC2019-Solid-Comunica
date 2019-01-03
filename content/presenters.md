@@ -1,7 +1,7 @@
 ## Presenters
 {:#presenters}
 
-This tutorial will be presented by Ruben Taelman (primary contact), Joachim Van Herwegen and Ruben Verborgh from Ghent University – imec.
+This tutorial will be presented by [Ruben Taelman](http://www.rubensworks.net/){:.mandatory} (primary contact: [ruben.taelman@ugent.be](mailto:ruben.taelman@ugent.be)), Joachim Van Herwegen and [Ruben Verborgh](https://ruben.verborgh.org/){:.mandatory} from Ghent University – imec.
 
 Ruben and Joachim are finishing PhD students who are active in the research domain of querying Linked Data.
 Furthermore, they are the main designers and developers of Comunica,
