@@ -35,7 +35,8 @@ using Comunica's querying capabilities.
 We will focus on three querying APIs to interact with Comunica,
 ranging from basic to advanced, as shown in [](#querying-tool-complexity).
 First, we will demonstrate the usage of [LDflex](https://github.com/solid/query-ldflex){:.mandatory},
-which is a simple path-based query expression language in JavaScript.
+which is a simple path-based query expression language in JavaScript
+that aims to [improve the developer experience](cite:cites devexperience).
 After that, we will focus on [GraphQL-LD](cite:cites graphqlld),
 which is a technique for querying Linked Data based on
 the highly popular [GraphQL](cite:cites graphql) query language.
