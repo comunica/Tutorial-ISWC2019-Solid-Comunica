@@ -8,7 +8,7 @@ Furthermore, they are the main designers and developers of Comunica,
 and are actively contributing to the development of Solid,
 which makes them uniquely qualified to present this tutorial.
 Ruben and Joachim both have presented tutorials at [conferences in the past](cite:cites cikm, ekaw),
-and actively coach students within the practical sessions of the
+and assist practical sessions of the
 [Web Development course](http://rubenverborgh.github.io/WebFundamentals/){:.mandatory} by Ruben Verborgh at Ghent University.
 
 Ruben Verborgh is a professor from Ghent University – imec,

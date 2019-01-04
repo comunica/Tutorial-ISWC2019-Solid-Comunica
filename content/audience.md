@@ -3,8 +3,7 @@
 
 This tutorial focuses on Web developers and researchers
 that want to use, develop, or research decentralized Web applications.
-We assume elementary knowledge on Web technologies such as HTML and JavaScript.
-Knowledge about RDF and SPARQL is beneficial, but not required.
+We assume elementary knowledge on Web technologies such as HTML, JavaScript, RDF and SPARQL.
 We expect participants to bring a laptop that has a recent Web browser,
 [git](https://git-scm.com/){:.mandatory}, and an editor or IDE with JavaScript support.
 The end-goal is to provide participants with sufficient knowledge and experience

@@ -2,7 +2,7 @@
 {:#motivation}
 
 Decentralization is a widely discussed topic these days.
-[Solid](https://solid.mit.edu/){:.mandatory} is a Web-based platform founded by Tim Berners-Lee
+[Solid](https://solid.mit.edu/){:.mandatory} is a Web-based ecosystem founded by Tim Berners-Lee
 that enables people store data in their own personal _data pod_.
 This gives users _true data ownership_,
 as they can choose _where_ their data resides,

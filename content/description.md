@@ -4,8 +4,7 @@
 We plan a full day for this tutorial as shown in [](#planning).
 The morning session will focus on the basics of Solid and Comunica,
 and the afternoon will consist of hands-on sessions for building applications.
-We expect participants to have basic knowledge of Web technologies such as HTML and JavaScript.
-Knowledge about RDF and SPARQL is beneficial, but not required.
+We expect participants to have basic knowledge of Web technologies such as HTML, JavaScript, RDF and SPARQL.
 
 <figure id="planning" markdown="1" class="table">
 
