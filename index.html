@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Building Decentralized Applications&lt;br /&gt;with Solid and Comunica (SOCOM)</title>
+  <link rel="stylesheet" media="screen" href="styles/screen.css" />
+  <link rel="stylesheet" media="print"  href="styles/print.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+</head>
+<body prefix="cc: https://creativecommons.org/ns# rdfs: http://www.w3.org/2000/01/rdf-schema#">
+  <header>
+  <h1 id="building-decentralized-applicationsbr-with-solid-and-comunica-socom">Building Decentralized Applications<br />with Solid and Comunica (SOCOM)</h1>
+
+  <ul id="authors">
+    <li><a href="http://www.rubensworks.net/" typeof="http://xmlns.com/foaf/0.1/Person" resource="http://www.rubensworks.net/#me">Ruben Taelman</a></li>
+    <li><a href="#" typeof="http://xmlns.com/foaf/0.1/Person" resource="https://data.verborgh.org/people/joachim_van_herwegen">Joachim Van Herwegen</a></li>
+    <li><a href="#" typeof="http://xmlns.com/foaf/0.1/Person" resource="https://data.verborgh.org/people/miel_vander_sande">Miel Vander Sande</a></li>
+    <li><a href="https://ruben.verborgh.org/" typeof="http://xmlns.com/foaf/0.1/Person" resource="https://ruben.verborgh.org/profile/#me">Ruben Verborgh</a></li>
+  </ul>
+
+  <ul id="affiliations">
+    <li id="idlab">IDLab,
+          Department of Electronics and Information Systems,
+          Ghent University – imec</li>
+  </ul>
+
+  <center class="screen-only">
+    <a href="https://solid.inrupt.com/"><img src="img/logo-solid.svg" height="300px" /></a>
+    <a href="http://comunica.linkeddatafragments.org/"><img src="img/logo-comunica.svg" height="300px" /></a>
+</center>
+
+  <section class="context">
+    <p>Tutorial at <a href="https://iswc2019.semanticweb.org/call-for-tutorial-proposals/" rel="as:inReplyTo">ISWC 2019</a>, October 26th or 27nd 2019</p>
+  </section>
+
+  <p><br /></p>
+
+  <section id="abstract">
+    <h2>Abstract</h2>
+    <!-- Context      -->
+    <p><a href="https://solid.inrupt.com/"><em>Solid</em></a> is a decentralized application and storage ecosystem, 
+built on the Linked Data principles.
+It enables true data ownership,
+where anyone can store data in a place of their choice,
+regardless of the applications they use.
+In order to build decentralized applications over Solid data pods,
+specialized querying techniques are required.
+<a href="http://comunica.linkeddatafragments.org/"><em>Comunica</em></a> is a flexible meta query engine
+that offers such querying capabilities.
+<!-- Need         -->
+In order to enable developers and researchers
+to start building such decentralized applications,
+<!-- Task         -->
+we offer a tutorial on Solid and Comunica.</p>
+
+    <p><br class="screen-only" /></p>
+
+    <!-- Object       -->
+    <p>This tutorial consists of an overview of Solid,
+and on how Comunica can be used to query Solid data pods.
+<!-- Findings     -->
+<!-- Conclusion   -->
+As a result, participants from different backgrounds
+will have experience with hosting data through their own personal Solid data pod.
+Furthermore, they will be able to query over Solid data pods,
+using different querying techniques with Comunica.
+Ultimately, this will enable the development and research of
+<em>decentralized applications</em> with the Solid platform.
+<!-- Perspectives --></p>
+
+  </section>
+
+</header>
+
+<section class="contents screen-only">
+  <h2 id="contents">Contents</h2>
+  <ul>
+    <li><a href="#motivation">Motivation</a></li>
+    <li><a href="#description">Description</a></li>
+    <li><a href="#material">Material</a></li>
+    <li><a href="#audience">Audience</a></li>
+    <li><a href="#presenters">Presenters</a></li>
+    <li><a href="#related-events">Related Events</a></li>
+    <li><a href="#requirements">Requirements</a></li>
+  </ul>
+</section>
+
+<main>
+  <section id="motivation">
+    <h2>Motivation</h2>
+
+    <p>Decentralization is a widely discussed topic these days.
+<a href="https://solid.mit.edu/" class="mandatory" data-link-text="https:/​/​solid.mit.edu/​">Solid</a> is a Web-based ecosystem founded by Tim Berners-Lee
+that enables people store data in their own personal <em>data pod</em>.
+This gives users <em>true data ownership</em>,
+as they can choose <em>where</em> their data resides,
+and <em>who</em> can access it.
+The <em>decentralized applications</em>
+that can be built on top of Solid data pods
+are not tied to specific user data.
+Instead, users need to give applications explicit access to their data.
+Only then can applications <em>query</em> over one or more data pods.</p>
+
+    <p><a property="schema:citation http://purl.org/spar/cito/cites" href="https://comunica.github.io/Article-ISWC2018-Resource/">Comunica</a> <span class="references">[<a href="#ref-1">1</a>]</span> is a JavaScript-based <em>meta query engine</em> that was introduced
+as a flexible way of querying Linked Data on the Web.
+As such, it is an ideal platform for querying over Solid data pods,
+and for building truly decentralized applications.
+The main functionality is demonstrated via our <a href="http://query.linkeddatafragments.org/" class="mandatory" data-link-text="http:/​/​query.linkeddatafragments.org/​">Web application</a>.
+The interaction with Solid data pods is demonstrated within the
+<a href="https://solid.github.io/ldflex-playground/" class="mandatory" data-link-text="https:/​/​solid.github.io/​ldflex-​playground/​">LDflex playground</a>,
+where Comunica is used in the back-end behind a user-friendly
+<a href="https://github.com/solid/query-ldflex" class="mandatory" data-link-text="https:/​/​github.com/​solid/​query-​ldflex">LDflex</a> path expression.</p>
+
+    <p>The goal of this tutorial is to provide participants
+with knowledge on how to build decentralized applications,
+by combining Solid data pods and querying with Comunica.</p>
+
+  </section>
+
+  <section id="description">
+    <h2>Description</h2>
+
+    <p>We plan a full day for this tutorial as shown in <a href="#planning">Table 1</a>.
+The morning session will focus on the basics of Solid and Comunica,
+and the afternoon will consist of hands-on sessions for building applications.
+We expect participants to have basic knowledge of Web technologies such as HTML, JavaScript, RDF and SPARQL.</p>
+
+    <figure id="planning" class="table">
+
+      <table>
+        <thead>
+          <tr>
+            <th> </th>
+            <th>Topic</th>
+            <th>Duration</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Morning: Getting started</strong></td>
+            <td>Introduction</td>
+            <td>0:20</td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td>Getting started with Solid</td>
+            <td>1:10</td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td>Getting started with Comunica</td>
+            <td>1:10</td>
+          </tr>
+          <tr>
+            <td><em>Lunch Break</em></td>
+            <td>—</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td><strong>Afternoon: Building applications</strong></td>
+            <td>LDflex</td>
+            <td>1:10</td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td>GraphQL-LD</td>
+            <td>1:10</td>
+          </tr>
+          <tr>
+            <td> </td>
+            <td>SPARQL</td>
+            <td>0:20</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <figcaption>
+        <p><span class="label">Table 1:</span> Planning of the tutorial</p>
+      </figcaption>
+    </figure>
+
+    <p>In the morning, we will introduce the basic concepts behind Solid and Comunica,
+and we will allow participants to get started with both of them.
+For Solid, this will involve guiding the audience towards
+setting up their own data pod.
+For Comunica, we will allow participants to try out several example
+queries via a <a href="http://query.linkeddatafragments.org/" class="mandatory" data-link-text="http:/​/​query.linkeddatafragments.org/​">Web-based query engine</a>.</p>
+
+    <p>In the afternoon, we will focus on building applications on top of Solid
+using Comunica’s querying capabilities.
+We will focus on three querying APIs to interact with Comunica,
+ranging from basic to advanced, as shown in <a href="#querying-tool-complexity">Fig. 1</a>.
+First, we will demonstrate the usage of <a href="https://github.com/solid/query-ldflex" class="mandatory" data-link-text="https:/​/​github.com/​solid/​query-​ldflex">LDflex</a>,
+which is a simple path-based query expression language in JavaScript
+that aims to <a property="schema:citation http://purl.org/spar/cito/cites" href="https://ruben.verborgh.org/blog/2018/12/28/designing-a-linked-data-developer-experience/">improve the developer experience</a> <span class="references">[<a href="#ref-2">2</a>]</span>.
+After that, we will focus on <a property="schema:citation http://purl.org/spar/cito/cites" href="https://comunica.github.io/Article-ISWC2018-Demo-GraphQlLD/">GraphQL-LD</a> <span class="references">[<a href="#ref-3">3</a>]</span>,
+which is a technique for querying Linked Data based on
+the highly popular <a property="schema:citation http://purl.org/spar/cito/cites" href="http://facebook.github.io/graphql/October2016/">GraphQL</a> <span class="references">[<a href="#ref-4">4</a>]</span> query language.
+It is based on declarative queries, which are more expressive than LDflex.
+Finally, we will briefly focus on <a property="schema:citation http://purl.org/spar/cito/cites" href="https://www.w3.org/TR/2013/REC-sparql11-query-20130321/">SPARQL queries</a> <span class="references">[<a href="#ref-5">5</a>]</span>,
+which is an even more expressive way of querying Linked Data,
+but is more difficult to use.</p>
+
+    <figure id="querying-tool-complexity">
+<center><img src="img/querying-tool-complexity.svg" alt="[Complexity versus expressivity]" style="width: 50% !important" /></center>
+<figcaption>
+        <p><span class="label">Fig. 1:</span> Perceived developer complexity versus data retrieval expressivity of Linked Data Query APIs.</p>
+      </figcaption>
+</figure>
+
+  </section>
+
+  <section id="material">
+    <h2>Material</h2>
+
+    <center style="font-size: 2em; text-style: italic">
+Coming soon&#8230;
+<br />
+<span style="font-size: 0.7em">In the meantime, try out the <a href="http://query.linkeddatafragments.org/">Comunica Web client</a>.</span>
+<br />
+<br />
+</center>
+
+    <p>The tutorial will be guided by slides,
+which will be shared online after the session.
+For the hands-on coding sessions, we will provide
+a git repository with separate branches for all sequentially completed tasks.
+This will allow participants that are unable to complete a certain task,
+to still begin with the next task by checking out a different branch.</p>
+
+    <p>The slides and git repository will be made available one month before the tutorial.
+All material will be made open for everyone under the CC BY 4.0 license.</p>
+
+  </section>
+
+  <section id="audience">
+    <h2>Audience</h2>
+
+    <p>This tutorial focuses on Web developers and researchers
+that want to use, develop, or research decentralized Web applications.
+We assume elementary knowledge on Web technologies such as HTML, JavaScript, RDF and SPARQL.
+We expect participants to bring a laptop that has a recent Web browser,
+<a href="https://git-scm.com/" class="mandatory" data-link-text="https:/​/​git-​scm.com/​">git</a>, and an editor or IDE with JavaScript support.
+The end-goal is to provide participants with sufficient knowledge and experience
+to build applications over Solid data pods using the Comunica query engine.
+In order to attract participants,
+we will announce it over the relevant decentralization and querying mailing lists,
+via Twitter, and directly via Gitter chat channels focused on Linked Data development.
+Given the high participation rate of the related Solid hands-on session at the DeSemWeb workshop at ISWC 2018,
+we expect around 20 to 30 participants for this tutorial.</p>
+
+  </section>
+
+  <section id="presenters">
+    <h2>Presenters</h2>
+
+    <p>This tutorial will be presented by <a href="http://www.rubensworks.net/" class="mandatory" data-link-text="http:/​/​www.rubensworks.net/​">Ruben Taelman</a> (primary contact: <a href="mailto:ruben.taelman@ugent.be">ruben.taelman@ugent.be</a>), Joachim Van Herwegen and <a href="https://ruben.verborgh.org/" class="mandatory" data-link-text="https:/​/​ruben.verborgh.org/​">Ruben Verborgh</a> from Ghent University – imec.</p>
+
+    <p>Ruben and Joachim are finishing PhD students who are active in the research domain of querying Linked Data.
+Furthermore, they are the main designers and developers of Comunica,
+and are actively contributing to the development of Solid,
+which makes them uniquely qualified to present this tutorial.
+Ruben and Joachim both have presented tutorials at conferences in the past <span class="references">[<a href="#ref-6">6</a>, <a href="#ref-7">7</a>]</span>,
+and assist practical sessions of the
+<a href="http://rubenverborgh.github.io/WebFundamentals/" class="mandatory" data-link-text="http:/​/​rubenverborgh.github.io/​WebFundamentals/​">Web Development course</a> by Ruben Verborgh at Ghent University.</p>
+
+    <p>Ruben Verborgh is a professor from Ghent University – imec,
+a research affiliate at the Decentralized Information Group at MIT,
+and a Solid technology advocate at Inrupt inc.
+He has presented Solid on many occasions
+and is responsible for its developer experience.</p>
+
+  </section>
+
+  <section id="related-events">
+    <h2>Related Events</h2>
+
+    <p>In the past, there were tutorials on Solid at the
+<a href="https://decentralizedwebsummit2018.sched.com/event/Fg5q/workshop-building-solid-apps-a-hands-on-tutorial" class="mandatory" data-link-text="https:/​/​decentralizedwebsummit2018.sched.com/​event/​Fg5q/​workshop-​building-​solid-​apps-​a-​hands-​on-​tutorial">Decentralized Web Summit 2018</a>,
+and at the <a href="http://iswc2018.desemweb.org/program/" class="mandatory" data-link-text="http:/​/​iswc2018.desemweb.org/​program/​">DeSemWeb workshop at ISWC 2018</a>.
+The Decentralized Web Summit tutorial (<a href="https://solid.github.io/dweb-summit-2018/">https:/​/​solid.github.io/dweb-summit-2018/</a>) had 50 participants,
+while the DeSemWeb workshop at ISWC 2018 (<a href="https://rubenverborgh.github.io/Solid-DeSemWeb-2018/">https:/​/​rubenverborgh.github.io/Solid-DeSemWeb-2018/</a>)
+had more than 60 participants.</p>
+
+    <p>There was one previous tutorial where Comunica was used
+as a tool to demonstrate various querying capabilities in a tutorial
+on <em>Knowledge Representation as Linked Data</em> <span class="references">[<a href="#ref-6">6</a>]</span>
+(<a href="http://rml.io/cikm2018tutorial/">http:/​/​rml.io/cikm2018tutorial/</a>) at the CIKM conference 2018.
+Furthermore, we will present a tutorial on Comunica at <a href="https://comunica.github.io/Tutorial-ESWC2019-Comunica/" class="mandatory" data-link-text="https:/​/​comunica.github.io/​Tutorial-​ESWC2019-​Comunica/​">ESWC 2019</a>.</p>
+
+    <p>This tutorial is relevant because
+it is the first tutorial that combines Solid and Comunica.
+As such, it offers participants hands-on experience on
+building decentralized Linked Data applications.</p>
+
+  </section>
+
+  <section id="requirements">
+    <h2>Requirements</h2>
+
+    <p>For this tutorial, we require a projector to present our slides,
+and a power plug for charging our laptop.</p>
+
+  </section>
+
+</main>
+
+<footer><section id="references">
+<h2>References</h2>
+<dl class="references">
+  <dt id="ref-1">[1]</dt>
+  <dd resource="https://comunica.github.io/Article-ISWC2018-Resource/" typeof="schema:Article">Taelman, R., Van Herwegen, J., Vander Sande, M., Verborgh, R.: Comunica: a Modular SPARQL Query Engine for the Web. In: Proceedings of the 17th International Semantic Web Conference (2018).</dd>
+  <dt id="ref-2">[2]</dt>
+  <dd resource="https://ruben.verborgh.org/blog/2018/12/28/designing-a-linked-data-developer-experience/" typeof="schema:Article">Verborgh, R.: Designing a Linked Data developer experience. (2018).</dd>
+  <dt id="ref-3">[3]</dt>
+  <dd resource="https://comunica.github.io/Article-ISWC2018-Demo-GraphQlLD/" typeof="schema:Article">Taelman, R., Vander Sande, M., Verborgh, R.: GraphQL-LD: Linked Data Querying with GraphQL. In: Proceedings of the 17th International Semantic Web Conference: Posters and Demos (2018).</dd>
+  <dt id="ref-4">[4]</dt>
+  <dd resource="http://facebook.github.io/graphql/October2016/" typeof="schema:CreativeWork">Facebook, I.: GraphQL. Working Draft, Oct. 2016. <a href="http://facebook.github.io/graphql/October2016/">http:/​/​facebook.github.io/graphql/October2016/</a></dd>
+  <dt id="ref-5">[5]</dt>
+  <dd resource="https://www.w3.org/TR/2013/REC-sparql11-query-20130321/" typeof="schema:CreativeWork">Harris, S., Seaborne, A., Prud’hommeaux, E.: SPARQL 1.1 Query Language. W3C, <a href="https://www.w3.org/TR/2013/REC-sparql11-query-20130321/">https:/​/​www.w3.org/TR/2013/REC-sparql11-query-20130321/</a> (2013).</dd>
+  <dt id="ref-6">[6]</dt>
+  <dd resource="#cikm" typeof="schema:Article">Van Herwegen, J., Heyvaert, P., Taelman, R., De Meester, B., Dimou, A.: Knowledge Representation as Linked Data: Tutorial. In: Proceedings of the 27th ACM International Conference on Information and Knowledge Management. pp. 2299–2300. ACM (2018).</dd>
+  <dt id="ref-7">[7]</dt>
+  <dd resource="#ekaw" typeof="schema:Article">Dimou, A., Heyvaert, P., Taelman, R., Verborgh, R.: Modeling, Generating, and Publishing Knowledge as Linked Data. In: European Knowledge Acquisition Workshop. pp. 3–14. Springer (2016).</dd>
+</dl>
+</section>
+</footer>
+
+
+
+</body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ v: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio#" typeof="schema:CreativeWork sioc:Post prov:Entity">
+</html>
