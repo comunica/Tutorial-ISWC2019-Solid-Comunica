@@ -10,10 +10,11 @@ We expect participants to have basic knowledge of Web technologies such as HTML,
 
 |                                               | Topic | Duration |
 |-----------------------------------------------|-------|----------|
-| **Morning: Getting started** (_2:40_)         | Introduction | 0:20   |
+| **Morning: Getting started**                  | Introduction | 0:20   |
 |                                               | Getting started with Solid  | 1:10   |
 |                                               | Getting started with Comunica  | 1:10   |
-| **Afternoon: Building applications** (_2:40_) | LDflex | 1:10   |
+| *Lunch Break*                                 | ---  | --- |
+| **Afternoon: Building applications**          | LDflex | 1:10   |
 |                                               | GraphQL-LD | 1:10   |
 |                                               | SPARQL | 0:20   |
 

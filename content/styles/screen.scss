@@ -23,15 +23,23 @@ body {
   margin: 0 auto;
   padding: 1em;
 
-  font: 13pt/1.4 "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13pt/1.4 'Open Sans', Verdana, Arial, sans-serif;
   max-width: 800px;
+}
+
+h1 {
+  color: #be1622;
+}
+
+h2, h3, h4 {
+  color: #7C4DFF;
 }
 
 header {
   margin-bottom: 2em;
 
   h1 {
-    font-size: 1.9em;
+    font-size: 2.2em;
     letter-spacing: -.01em;
     font-weight: bold;
     margin: 1em 0 .5em;
@@ -44,7 +52,9 @@ header {
   }
 
   .actions, .context {
+    font-weight: bold;
     font-size: .9em;
+    text-align: center;
 
     h2 {
       margin: 0;
@@ -75,6 +85,9 @@ header {
   }
 
   #authors {
+    font-size: .9em;
+    text-align: center;
+
     li {
       display: inline;
       margin-right: 1.5em;
@@ -95,8 +108,9 @@ header {
     list-style: none;
     margin: 1em 0;
     padding: 0;
+    text-align: center;
 
-    font-size: .9em;
+    font-size: .5em;
 
     sup {
       margin-right: .15em;
@@ -104,12 +118,30 @@ header {
   }
 
   #abstract {
-    font-weight: bold;
+    text-align: justify;
     hyphens: auto;
     padding-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
 
     h2 {
       display: none;
+    }
+  }
+}
+
+.contents {
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+
+  ul {
+    li {
+      margin-left: 20px;
+      padding: 5px;
     }
   }
 }
@@ -324,6 +356,8 @@ figure.numbered pre {
 }
 
 #references {
+  font-size: 0.7em;
+  color: #848484;
   h2 {
     &::before {
       content: "";
@@ -369,7 +403,7 @@ table {
 
   th, td {
     text-align: left;
-    padding: 0 .5em;
+    padding: 0.5em .5em;
   }
 
   th {
