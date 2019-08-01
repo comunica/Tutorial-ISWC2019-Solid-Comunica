@@ -1,18 +1,12 @@
 ## Presenters
 {:#presenters}
 
-This tutorial will be presented by [Ruben Taelman](http://www.rubensworks.net/){:.mandatory} (primary contact: [ruben.taelman@ugent.be](mailto:ruben.taelman@ugent.be)), Joachim Van Herwegen and [Ruben Verborgh](https://ruben.verborgh.org/){:.mandatory} from Ghent University – imec.
+This tutorial will be presented by [Ruben Taelman](http://www.rubensworks.net/){:.mandatory} (primary contact: [ruben.taelman@ugent.be](mailto:ruben.taelman@ugent.be)) and Julián Rojas from Ghent University – imec.
 
-Ruben and Joachim are finishing PhD students who are active in the research domain of querying Linked Data.
-Furthermore, they are the main designers and developers of Comunica,
-and are actively contributing to the development of Solid,
-which makes them uniquely qualified to present this tutorial.
-Ruben and Joachim both have presented tutorials at [conferences in the past](cite:cites cikm, ekaw),
+Ruben is a finishing PhD student who is active in the research domain of querying Linked Data.
+Julián is a third year PhD student focused on studying Web interfaces for Linked Open Data publishing.
+Ruben is one of the main designers and developers of Comunica and is actively contributing to the development of Solid.
+Julián is an active user of Comunica and is currently collaborating is several projects where Comunica and Solid are key components. This makes them uniquely qualified to present this tutorial.
+Ruben have also presented tutorials at [conferences in the past](cite:cites cikm, ekaw),
 and assist practical sessions of the
-[Web Development course](http://rubenverborgh.github.io/WebFundamentals/){:.mandatory} by Ruben Verborgh at Ghent University.
-
-Ruben Verborgh is a professor from Ghent University – imec,
-a research affiliate at the Decentralized Information Group at MIT,
-and a Solid technology advocate at Inrupt inc.
-He has presented Solid on many occasions
-and is responsible for its developer experience.
+[Web Development course](http://rubenverborgh.github.io/WebFundamentals/){:.mandatory} by [Ruben Verborgh](https://ruben.verborgh.org/){:.mandatory} at Ghent University.
