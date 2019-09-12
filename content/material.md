@@ -1,20 +1,45 @@
 ## Material
 {:#material}
 
-<center style='font-size: 2em; text-style: italic'>
-Coming soon...
-<br />
-<span style='font-size: 0.7em'>In the meantime, try out the <a href='http://query.linkeddatafragments.org/'>Comunica Web client</a>.</span>
-<br />
-<br />
-</center>
-
-The tutorial will be guided by slides,
-which will be shared online after the session.
-For the hands-on coding sessions, we will provide
+The tutorial is guided by slides,
+which are shared online.
+For the hands-on coding sessions, we provide
 a git repository with separate branches for all sequentially completed tasks.
 This will allow participants that are unable to complete a certain task,
 to still begin with the next task by checking out a different branch.
 
-The slides and git repository will be made available one month before the tutorial.
-All material will be made open for everyone under the CC BY 4.0 license.
+The slides and git repository are open for everyone under the CC BY 4.0 license.
+
+### Requirements
+
+* [git](https://git-scm.com/) (*you probably already have this*)
+* [Node.js](https://nodejs.org/en/) (>= 8.0)
+* A JavaScript editor. (we will use [WebStorm](https://www.jetbrains.com/webstorm/), but feel free to use anything you want)
+
+### Solid
+
+* Introduction: TODO
+* [Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-Introduction/#)
+* [Tutorial walkthrough](https://github.com/comunica/Tutorial-Solid-Getting-Started/wiki/Tutorial-walkthrough)
+
+### Comunica
+
+* [Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-Comunica/#)
+* [Tutorial walkthrough](https://github.com/comunica/Tutorial-Comunica-Querying-Data/wiki/Comunica-tutorial:-Querying-Data)
+
+### Apps
+
+* [LDflex Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-LDflex/#)
+* LDflex Tutorial walkthrough: TODO
+* [GraphQL-LD Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-GraphQL-LD/#)
+* [GraphQL-LD Tutorial walkthrough](https://github.com/comunica/Tutorial-Solid-GraphQL-LD-Profile-Viewer/wiki/Tutorial-walkthrough)
+
+### Useful links
+
+* [Comunica Web client](http://query.linkeddatafragments.org/)
+* [LDflex playground](https://solid.github.io/ldflex-playground/)
+* [Solid React](https://github.com/solid/react-components/)
+* [Solid React GraphQL-LD](https://github.com/rubensworks/solid-react-graphql-ld.js)
+* [Comunica documentation](https://comunica.readthedocs.io/en/latest/)
+* [Comunica JSDoc](https://comunica.github.io/comunica/)
+* [Comunica source](https://github.com/comunica/comunica)
