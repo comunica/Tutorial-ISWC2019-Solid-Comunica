@@ -10,13 +10,17 @@ We expect participants to have basic knowledge of Web technologies such as HTML,
 
 |                                               | Topic | Duration |
 |-----------------------------------------------|-------|----------|
-| **Morning: Getting started**                  | Introduction | 0:20   |
-|                                               | Getting started with Solid  | 1:10   |
-|                                               | Getting started with Comunica  | 1:10   |
+| **Morning 1: Solid** (_1:20_)                 | Introduction | 0:10   |
+|                                               | Introduction to Solid  | 0:30   |
+|                                               | Getting Started with Solid  | 0:40   |
+| *Break*                                       | ---  | --- |
+| **Morning 2: Comunica** (_1:20_)              | Introduction to Comunica  | 0:40   |
+|                                               | Getting Started with Comunica  | 0:40   |
 | *Lunch Break*                                 | ---  | --- |
-| **Afternoon: Building applications**          | LDflex | 1:10   |
-|                                               | GraphQL-LD | 1:10   |
-|                                               | SPARQL | 0:20   |
+| **Afternoon 1: Apps** (_1:20_)                | LDflex | 0:40   |
+|                                               | GraphQL-LD | 0:40   |
+| *Break*                                       | ---  | --- |
+| **Afternoon 1: Hackathon** (_1:20_)           | Hackathon | 1:20   |
 
 <figcaption markdown="block">
 Planning of the tutorial
