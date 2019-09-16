@@ -18,7 +18,7 @@ The slides and git repository are open for everyone under the CC BY 4.0 license.
 
 ### Solid
 
-* Introduction: TODO
+* [Introduction](https://comunica.github.io/Tutorial-ISWC2019-Slides-Introduction/)
 * [Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-Introduction/#)
 * [Tutorial walkthrough](https://github.com/comunica/Tutorial-Solid-Getting-Started/wiki/Tutorial-walkthrough)
 
