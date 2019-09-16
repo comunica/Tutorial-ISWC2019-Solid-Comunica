@@ -19,20 +19,24 @@ The slides and git repository are open for everyone under the CC BY 4.0 license.
 ### Solid
 
 * [Introduction](https://comunica.github.io/Tutorial-ISWC2019-Slides-Introduction/)
-* [Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-Introduction/#)
+* [Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-Introduction/)
 * [Tutorial walkthrough](https://github.com/comunica/Tutorial-Solid-Getting-Started/wiki/Tutorial-walkthrough)
 
 ### Comunica
 
-* [Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-Comunica/#)
+* [Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-Comunica/)
 * [Tutorial walkthrough](https://github.com/comunica/Tutorial-Comunica-Querying-Data/wiki/Comunica-tutorial:-Querying-Data)
 
 ### Apps
 
-* [LDflex Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-LDflex/#)
+* [LDflex Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-LDflex/)
 * LDflex Tutorial walkthrough: TODO
 * [GraphQL-LD Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-GraphQL-LD/#)
 * [GraphQL-LD Tutorial walkthrough](https://github.com/comunica/Tutorial-Solid-GraphQL-LD-Profile-Viewer/wiki/Tutorial-walkthrough)
+
+### Hackathon
+
+* [Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-Hackathon/)
 
 ### Useful links
 
