@@ -30,7 +30,7 @@ The slides and git repository are open for everyone under the CC BY 4.0 license.
 ### Apps
 
 * [LDflex Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-LDflex/)
-* LDflex Tutorial walkthrough: TODO
+* [LDflex Tutorial walkthrough](https://github.com/julianrojas87/Tutorial-ISWC2019-LDflex-on-React/wiki/Tutorial-Walkthrough)
 * [GraphQL-LD Slides](https://comunica.github.io/Tutorial-ISWC2019-Slides-GraphQL-LD/#)
 * [GraphQL-LD Tutorial walkthrough](https://github.com/comunica/Tutorial-Solid-GraphQL-LD-Profile-Viewer/wiki/Tutorial-walkthrough)
 
